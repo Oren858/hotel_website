@@ -1,0 +1,40 @@
+#aboutUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.biography {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 20px;
+    align-content: center;
+    grid-column-gap: 20px;
+}
+
+.biography img{
+    width: 250px;
+    height: 250px;
+}
+
+h3 {
+    font-family: Georgia, "Palatino Linotype", serif;
+    color: #851e22;
+    text-align: center;
+}
+
+h5 {
+    font-family: Arial, serif;
+    color: black;
+    text-align: center;
+}
+
+li {
+    font-family: Arial, serif;
+    color: black;
+    font-size: small;
+
+}

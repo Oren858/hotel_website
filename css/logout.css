@@ -1,0 +1,12 @@
+main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid #851e22;
+    margin-left: 10px;
+
+
+}
+main a{
+    color: #851e22;
+}

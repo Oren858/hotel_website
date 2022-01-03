@@ -1,0 +1,38 @@
+#mainSection {
+    background-image: url(../images/roomPhoto/roomImage_1.jpg);
+    background-size: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    margin-left: 10px;
+}
+
+.reservationForm {
+    display: grid;
+    grid-row-gap: 15px;
+    color: #111111;
+}
+
+.formGrid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    background-color: whitesmoke;
+    font-family: Georgia, "Palatino Linotype", serif;
+    font-size: smaller;
+    padding: 20px;
+}
+
+.formTitle{
+    grid-column: 1/span2;
+}
+
+#submit {
+    background-color: #851e22;
+    color: beige;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+}

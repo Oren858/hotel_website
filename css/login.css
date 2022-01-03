@@ -1,0 +1,47 @@
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid #851e22;
+    margin-left: 10px;
+}
+h1{
+    text-align: center;
+    margin-left: 120px;
+}
+legend{
+    font-weight: bold;
+    font-size: 125%;
+}
+label{
+    width: 125px;
+    float: left;
+    text-align: left;
+    font-weight: bold;
+}
+input{
+    border: 1px solid black;
+    padding: 3px;
+}
+button{
+    margin-top: 12px;
+    margin-left: 100px;
+    background-color: #851e22;
+    color: beige;
+    font-weight: bold;
+
+}
+#invalidEntry{
+    color: red;
+}
+#loginForm{
+    display: inline-block;
+    padding: 10px;
+}
+#buttonContainer p{
+    display: inline-block;
+}
+
+#loginText{
+    padding-left: 100px;
+}

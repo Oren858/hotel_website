@@ -1,0 +1,25 @@
+.imageGallery {
+    display: flex;
+    margin-left: 10px;
+    justify-content: space-around;
+
+}
+
+.imageGallery img {
+    width: 560px;
+    height: 320px;
+    padding-bottom: 15px;
+}
+
+h2 {
+    font-family: Georgia, "Palatino Linotype", serif;
+    color: #851e22;
+    text-align: center;
+}
+
+h4 {
+    font-family: Georgia, "Palatino Linotype", serif;
+    color: #851e22;
+    text-align: center;
+    font-size: medium;
+}

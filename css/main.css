@@ -1,0 +1,192 @@
+header {
+    background-color: #851e22;
+}
+
+body {
+    max-width: 1160px;
+    font: 1em normal Arial, sans-serif;
+    color: #111111;
+}
+/* rules for the header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
+/* rules for the center header */
+#midHeader {
+    display: flex;
+    flex-direction: row;
+    margin-top: -30px;
+}
+#searchBoxForm {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+#searchBox {
+    height: 30px;
+    width: 300px;
+    align-content: center;
+}
+#searchIcon {
+    width: 35px;
+    height: 35px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.dropdownSelect {
+    width: 189px;
+    padding: 5px;
+    background-color: #851e22;
+    color: blanchedalmond;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+    font-family: Georgia, "Palatino Linotype", serif;
+    font-size: 17px;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    padding-top: 5px;
+    z-index: 1;
+    border-radius: 5px;
+    background-color: #851e22;
+    text-align: center;
+    padding-bottom: 3px;
+}
+
+.dropdown:hover .dropdownContent {
+    display: block;
+}
+
+.dropdownContent a {
+    color: blanchedalmond;
+    text-decoration: none;
+    font-family: Georgia, "Palatino Linotype", serif;
+    font-size: 17px;
+}
+
+.dropdownContent a:hover {
+    text-decoration: underline;
+}
+
+/* rules for the right header */
+
+#rightHeader {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+#phoneNumberButton {
+    width: 300px;
+    height: 30px;
+    margin: 10px 10px 0 0;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 8px;
+}
+
+#phoneNumberButton p {
+    color: blanchedalmond;
+    text-decoration: none;
+    font-family: Georgia, "Palatino Linotype", serif;
+    font-size: 15px;
+}
+
+#aboutUsButton {
+    width: 100px;
+    height: 30px;
+    margin: 10px 20px 0 0;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 8px;
+}
+
+#aboutUsButton a{
+    color: blanchedalmond;
+    text-decoration: none;
+    font-family: Georgia, "Palatino Linotype", serif;
+    font-size: 15px;
+}
+#aboutUsButton a:hover {
+    text-decoration: underline;
+}
+
+#reserveButton {
+    width: 70px;
+    height: 30px;
+    margin: 10px 10px 0 0;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 8px;
+}
+
+#reserveButton a{
+    color: blanchedalmond;
+    text-decoration: none;
+    font-family: Georgia, "Palatino Linotype", serif;
+    font-size: 15px;
+}
+#reserveButton a:hover {
+    text-decoration: underline;
+}
+
+/* rules for the footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid darkred;
+    margin-left: 10px;
+    padding: 10px 0;
+    font-size: 0.8em;
+}
+
+#leftFooter {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    font-family: Georgia, "Palatino Linotype", serif;
+    font-size: 1em;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+#leftFooter a{
+    padding-top: 10px;
+    font-family: Georgia, "Palatino Linotype", serif;
+    font-size: 15px;
+    color: #851e22;
+    text-decoration: none;
+}
+
+#leftFooter a:hover{
+    text-decoration: underline;
+}
+
+#leftFooter p {
+    font-family: Georgia, "Palatino Linotype", serif;
+    font-size: 1em;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #851e22
+}
+
+#rightFooter {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    width: 200px;
+    padding: 10px;
+}
